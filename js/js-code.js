@@ -1,3 +1,6 @@
+
+function password() {
+
 var password = prompt("please enter pin")
 var pin;
 if (password === "6767"){
@@ -5,8 +8,10 @@ if (password === "6767"){
     pin = "pin accepted"
 
 }
-else{
-    windows.location.href='https://josephlee3454.github.io/example'
+else {
+    window.location = 'https://josephlee3454.github.io/example';
+}
+return '<h3>' + pin + '</h3>' ;
 }
 
 
