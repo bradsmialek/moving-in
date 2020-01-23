@@ -10,8 +10,13 @@ section{
    
 
 }
-#login {float: right;}
-#leftside {float: left; width: 50%;}
+#login {
+    float: right;
+}
+#leftside {
+    float: left; 
+    width: 50%;
+}
 #rightside {float: right; width: 50%;}
 footer {position:fixed;
         margin-top: top -350px;
