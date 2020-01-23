@@ -1,3 +1,19 @@
+var password = prompt("please enter pin")
+var pin;
+if (password === "6767"){
+    
+    pin = "pin accepted"
+
+}
+else{
+    windows.location.href='https://josephlee3454.github.io/example'
+}
+
+
+
+
+
+
 var country = prompt("what country are you fromm", "county here...")
 var greetings;
 
@@ -42,7 +58,11 @@ var money;
    else if (weather === "fall" || weather === "autumn")
    {
        season = 'The leaves are so big and beautiful in fall';
+
    }
 
    document.write('<h5>' + season + '<h5>');
+
+   
+
 
